@@ -1,0 +1,4 @@
+#!/bin/sh
+rm -rf /usr/lib/enigma2/python/Plugins/Extensions/BackupSuite
+echo "Plugin removed!"
+exit 0

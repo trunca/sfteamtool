@@ -1,0 +1,33 @@
+#!/bin/sh
+DAEMON=/usr/sbin/crond
+NAME=crond
+DESC="Busybox Periodic Command Scheduler"
+ARGS="-c /etc/cron/crontabs"
+
+if [ ! -e /var/spool/cron ]; then
+   mkdir -p /var/spool
+   ln -sfn /etc/cron /var/spool/cron
+fi
+
+test -f $DAEMON || exit 0
+
+set -e
+
+case "$1" in
+    start)
+        echo "starting $DESC: $NAME... "
+	start-stop-daemon -S -b -n $NAME -a $DAEMON -- $ARGS
+	echo "done."
+	;;
+    stop)
+        echo "stopping $DESC: $NAME... "
+    	start-stop-daemon -K -n $NAME
+	echo "done."
+	;;
+    *)
+	echo "Usage: $0 {start|stop}"
+	exit 1
+	;;
+esac
+
+exit 0

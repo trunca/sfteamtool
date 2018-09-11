@@ -1,0 +1,12 @@
+Package: enigma2-plugin-extensions-backupsuite
+Version: 20+git148+640cd37-r0
+Description: enigma2-plugin-extensions-backupsuite version 20+gitAUTOINC+640cd37f58-r0
+ Backup Suite
+Section: base
+Priority: optional
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+License: GPLv2
+Architecture: mips32el
+OE: enigma2-plugin-extensions-backupsuite
+Depends: mtd-utils, mtd-utils-ubifs, ofgwrite
+Source: git://github.com/Pedro-Newbie/BackupSuite.git
