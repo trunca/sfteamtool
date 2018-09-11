@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<items>
+<playlist_name><![CDATA[Manuales Online]]></playlist_name>
+
+<channel>       
+<title><![CDATA[Manuales Para Imagenes SFTEAM OFICIAL]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://www.mejoreslistasyrankings.com/images/9/7/4/elige_las_mejores_series_de_tv_espanolas_del_siglo_xxi_87479_portada.png">Portal Dedicado Al Streaming De Peliculas Y Series De Alta Calidad]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/sfteam-6/videoManuales/master/videomanuales.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+</channel>
+
+
+
+
+
+
+<prev_page_url text="CH- ATRAS"><![CDATA[videomanualesSF.xml]]></prev_page_url>
+
+</items>

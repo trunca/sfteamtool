@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--  Skin: nStreamPlayer HD -->
+<skin>
+
+<screen name="nPlaylist" position="0,0" size="1920,1080" backgroundColor="#41000000" flags="wfNoBorder" title="Playlist">
+<ePixmap position="0,0" size="1920,1080" zPosition="1" transparent="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/menu_bg.png" />
+<widget name="feedlist" position="90,129" size="1100,470" foregroundColorSelected="#e1df42" backgroundColor="#41000000" foregroundColor="#ffffff" backgroundColorSelected="#41000000" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/barrahd.png" itemHeight="57" enableWrapAround="1" zPosition="3" scrollbarMode="showOnDemand" transparent="1" /> 
+<widget backgroundColor="#41000000" foregroundColor="#ffffff" position="90,714" size="1100,190" name="description" font="Regular; 26" zPosition="2" transparent="1" text="AAAAA" />
+<widget backgroundColor="#41000000" foregroundColor="#6ba4c9" position="130,55" size="1100,60" name="playlist" zPosition="3" font="Regular;46" transparent="1" />
+<widget name="time" position="1633,927" size="150,60" font="Regular; 48" foregroundColor="#00ffffff" backgroundColor="#41000000" transparent="1" halign="left" zPosition="3" valign="center" />
+<ePixmap name="" position="87,48" size="1200,64" zPosition="2" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/barraplaylisthd.png" transparent="1" />
+
+<eLabel name="" position="1221,927" size="400,60" text="videomanualesSF 1.2" foregroundColor="#FF0000" font="Regular; 48" halign="center" transparent="1" zPosition="3" />
+<widget name="poster" position="1286,164" size="500,700" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/clearhd.png" zPosition="3" transparent="1" alphatest="blend" />
+<ePixmap name="" position="89,917" size="1100,60" zPosition="2" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/barrabotoneshd.png" transparent="0" />
+<ePixmap position="145,928" size="40,40" zPosition="3" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/key_redhd.png" />
+<widget name="pixmap2a" position="283,928" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/menoshd.png" zPosition="3" transparent="1" alphatest="blend" />
+<ePixmap name="" position="1195,916" size="600,60" zPosition="2" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/barralogohd.png" transparent="0" />	
+<eLabel position="192,934" zPosition="4" size="80,28" halign="left" font="Regular; 22" transparent="1" foregroundColor="#FF0000" backgroundColor="#41000000" text="INICIO" valign="center" />
+<widget name="chminus" position="330,934" zPosition="4" size="165,28" halign="left" font="Regular; 22" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" valign="center" text="AAAA" />
+<ePixmap position="750,928" size="40,40" zPosition="4" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/stophd.png" />
+
+
+<widget backgroundColor="background" font="Regular; 38" halign="right" position="1426,87" render="Label" size="210,40" source="global.CurrentTime" transparent="1" zPosition="3">
+  <convert type="ClockToText">Format:%d.%m.%Y</convert>
+</widget>
+</screen>
+
+
+
+<screen name="nIPTVplayer" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder" title="IPTVplayer">
+<ePixmap position="0,880" size="1920,200" zPosition="1" transparent="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/infobarhd.png" />
+<widget position="240,891" halign="center" size="96,42" foregroundColor="#ffffff" zPosition="2" name="channel_number" transparent="1" font="Regular; 28" />
+<widget position="240,938" size="975,51" foregroundColor="#ffffff" backgroundColor="#41000000" name="channel_name" font="Regular;34" zPosition="2" transparent="1" />
+<widget position="1221,943" size="450,39" halign="right" foregroundColor="#f4df8d" backgroundColor="#41000000" name="group" font="Regular;26" zPosition="2" transparent="1" />
+<widget name="picon" position="114,975" size="52,52" backgroundColor="#41000000" zPosition="2" transparent="1" />
+<widget position="450,995" size="975,37" foregroundColor="#ffffff" backgroundColor="#41000000" name="programm" font="Regular;24" zPosition="2" transparent="1" />
+<widget position="1572,894" size="99,39" foregroundColor="#ffffff" halign="center" zPosition="2" name="time_now" transparent="1" font="Regular;24" />
+<widget source="session.CurrentService" render="Label" zPosition="4" position="1648,989" size="90,33" halign="right" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+<convert type="ServiceInfo">VideoWidth</convert>
+</widget>
+<eLabel text="x" zPosition="4" position="1740,989" size="22,33" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background" />
+<widget source="session.CurrentService" render="Label" zPosition="4" position="1762,989" size="82,33" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+<convert type="ServiceInfo">VideoHeight</convert>
+</widget>
+</screen>
+
+
+<screen name="nVODplayer" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder" title="Videoplayer" transparent="0">
+
+	
+<widget name="state" font="Regular; 32" position="123,988" size="120,36" transparent="1" backgroundColor="#41000000" foregroundColor="#2bc6e5" zPosition="10" halign="center" />
+<widget source="session.CurrentService" foregroundColor="red" render="Label" position="290,960" size="120,30" font="Regular; 22" halign="right" valign="center" backgroundColor="#06224f" transparent="1" zPosition="2">
+	<convert type="ServicePosition">Position</convert>
+</widget>
+<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/slider_910x5_hfg.png" position="430,976" size="910,5" zPosition="2" transparent="0" backgroundColor="#41000000" alphatest="blend" />
+<widget source="session.CurrentService" render="PositionGauge" backgroundColor="#206df9" position="430,978" size="910,5" zPosition="3" pointer="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/slider_910x5_hbg.png:910,0" transparent="1">
+	<convert type="ServicePosition">Gauge</convert>
+</widget>
+<widget source="session.CurrentService" foregroundColor="#ffffff" position="293,885" size="1200,60" font="Regular; 40" backgroundColor="#41000000" transparent="1" zPosition="2" render="RunningText" options="movetype=running,direction=left,startpoint=0,startdelay=1000,wrap=1,always=0,repeat=4,oneshot=1">
+	<convert type="ServiceName">Name</convert>
+</widget>
+<widget source="session.CurrentService" foregroundColor="#ffffff" render="Label" position="1345,960" size="120,30" font="Regular; 22" halign="right" backgroundColor="#41000000" transparent="1" zPosition="2" valign="center">
+	<convert type="ServicePosition">Length</convert>
+</widget>
+<widget source="session.CurrentService" foregroundColor="#1183e3" render="Label" position="1497,960" size="120,30" zPosition="2" font="Regular; 22" halign="left" valign="center" backgroundColor="#41000000" transparent="1">
+	<convert type="ServicePosition">Remaining</convert>
+</widget>
+<ePixmap position="290,1000" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/key_bluehd.png" zPosition="3" transparent="1" alphatest="blend" /> 
+<widget name="cont_play" position="337,1011" zPosition="4" size="275,28" halign="left" font="Regular; 20" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" /> <ePixmap position="1000,1000" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/1hd.png" zPosition="3" transparent="1" alphatest="blend" />
+<eLabel position="1044,1008" zPosition="4" size="50,24" halign="center" font="Regular; 20" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="-10s" /> 	<ePixmap position="1100,1000" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/4hd.png" zPosition="3" transparent="1" alphatest="blend" />
+<eLabel position="1144,1008" zPosition="4" size="50,24" halign="center" font="Regular; 20" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="-1m" /> 		
+<ePixmap position="1198,1000" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/7hd.png" zPosition="3" transparent="1" alphatest="blend" />
+<eLabel position="1240,1008" zPosition="4" size="50,24" halign="center" font="Regular; 20" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="-5m" /> 		
+<ePixmap position="619,1000" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/key_redhd.png" zPosition="3" transparent="1" alphatest="blend" />
+<eLabel position="665,1006" zPosition="4" size="120,28" halign="left" font="Regular; 20" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="Descargar" valign="center" />		
+<ePixmap position="1300,1000" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/3hd.png" zPosition="3" transparent="1" alphatest="blend" />
+<eLabel position="1345,1006" zPosition="4" size="50,24" halign="center" font="Regular; 20" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="+10s" /> 	<ePixmap position="1399,1000" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/6hd.png" zPosition="3" transparent="1" alphatest="blend" />
+<eLabel position="1445,1008" zPosition="4" size="50,24" halign="center" font="Regular; 20" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="+1m" /> 		
+<ePixmap position="1499,1000" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/9hd.png" zPosition="3" transparent="1" alphatest="blend" />
+<eLabel position="1545,1008" zPosition="4" size="60,24" halign="center" font="Regular; 20" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="+5m" />
+<widget source="session.CurrentService" render="Label" zPosition="4" position="1636,1004" size="90,28" halign="right" font="Regular; 22" foregroundColor="#ffffff" transparent="1" backgroundColor="#41000000">
+<convert type="ServiceInfo">VideoWidth</convert>
+</widget>
+<eLabel text="x" zPosition="4" position="1728,1004" size="22,28" halign="center" font="Regular; 22" foregroundColor="#ffffff" transparent="1" backgroundColor="#41000000" />
+<widget source="session.CurrentService" render="Label" zPosition="4" position="1752,1004" size="82,28" halign="left" font="Regular; 22" foregroundColor="#ffffff" transparent="1" backgroundColor="#41000000">
+<convert type="ServiceInfo">VideoHeight</convert>
+</widget>
+<ePixmap name="picon" position="107,895" backgroundColor="#41000000" size="150,150" zPosition="3" transparent="1" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/playpausahd.png" alphatest="blend" />
+<ePixmap position="0,880" size="1920,205" zPosition="1" transparent="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/infobarhd.png" />
+<widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/icon_sd_onhd.png" position="789,1000" size="40,40" zPosition="2" alphatest="blend">
+		<convert type="ServiceInfo">VideoWidth</convert>
+		<convert type="ValueRange">0,720</convert>
+		<convert type="ConditionalShowHide" />
+   	</widget>
+<widget source="session.CurrentService" render="Pixmap" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/icon_hd_onhd.png" position="789,1000" size="40,40" zPosition="3" alphatest="blend">
+		<convert type="ServiceInfo">VideoWidth</convert>
+		<convert type="ValueRange">721,1980</convert>
+		<convert type="ConditionalShowHide" />
+    </widget>
+  <widget source="session.CurrentService" render="Pixmap" position="840,1000" size="40,40" zPosition="14" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/icon_net_offhd.png" alphatest="blend">
+      <convert type="nBmExtendedServiceInfo">InetConection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget source="session.CurrentService" render="Pixmap" position="840,1000" size="40,40" zPosition="15" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/icon_net_onhd.png" alphatest="blend">
+      <convert type="nBmExtendedServiceInfo">InetConection</convert>
+      <convert type="ConditionalShowHide" />
+    </widget>
+    <widget backgroundColor="background" font="Regular; 32" halign="right" position="1498,897" render="Label" size="210,40" source="global.CurrentTime" transparent="1" zPosition="3">
+  <convert type="ClockToText">Format:%d.%m.%Y</convert>
+</widget>
+<widget backgroundColor="background" font="Regular; 32" halign="right" position="1722,897" render="Label" size="100,40" source="global.CurrentTime" transparent="1" zPosition="3">
+  <convert type="ClockToText">Default</convert>
+</widget>
+<eLabel text="/" zPosition="4" position="1468,960" size="30,30" halign="center" font="Regular; 22" foregroundColor="#ffffff" transparent="1" backgroundColor="#41000000" />
+	
+</screen>
+
+
+<screen name="SelectQuality" position="center,center" size="618,450" backgroundColor="transpBlack" flags="wfNoBorder" title="Selecciona calidad" borderWidth="0" borderColor="transparent">
+<widget name="menulabel" position="60,45" zPosition="3" size="498,36" halign="center" font="Regular; 22" transparent="1" foregroundColor="#d4c227" backgroundColor="transpBlack" /> 
+<widget name="filmparts" itemHeight="45" position="60,118" size="498,270" backgroundColor="transpBlack" foregroundColor="#d4c227" zPosition="2" /> 
+<ePixmap position="0,0" size="618,450" zPosition="1" transparent="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/videomanualesSF/img/fcalidadhd.png" />	
+
+</screen>	
+	
+	<screen name="nStreamTasksScreen" position="center,center" size="1650,825" title="Lista de videos bajados">
+		<widget source="movielist" render="Listbox" position="15,75" size="1770,675" zPosition="7" scrollbarMode="showOnDemand" transparent="1" >
+			<convert type="TemplatedMultiContent">
+				{"template": [
+						MultiContentEntryText(pos = (0,1), size = (1065,42), font=1, flags = RT_HALIGN_LEFT, text = 1),
+						MultiContentEntryText(pos = (1080,1), size = (225,42), font=1, flags = RT_HALIGN_RIGHT, text = 2),
+						MultiContentEntryProgress(pos = (1320,1), size = (150,42), percent = -3),
+						MultiContentEntryText(pos = (1485,1), size = (90,42), font=1, flags = RT_HALIGN_RIGHT, text = 4),
+					],
+				"fonts": [gFont("Regular", 26),gFont("Regular", 22)],
+				"itemHeight": 43
+				}
+			</convert>
+		</widget>
+	</screen>	
+	       
+</skin>
