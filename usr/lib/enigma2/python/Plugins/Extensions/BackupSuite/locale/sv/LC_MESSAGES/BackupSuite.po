@@ -1,0 +1,376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pedro_Newbie <backupsuite@outlook.com>\n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: plugin.py 89
+msgid "Make a backup or restore a backup"
+msgstr "Gör en säkerhetskopia eller återställ en säkerhetskopia"
+
+msgid "Full back-up on HDD"
+msgstr "Fullständig säkerhetskopiering på hårddisk"
+
+msgid ""
+"Do you want to make an USB-back-up image on HDD? \n"
+"\n"
+"This only takes a few minutes and is fully automatic.\n"
+msgstr ""
+"Vill du göra en USB-säkerhetskopia av denna image till hårddisken?\n"
+"\n"
+"Detta tar endast några minuter och är helt automatiskt.\n"
+
+msgid "Full back-up to USB"
+msgstr "Fullständig säkerhetskopiering till USB"
+
+msgid ""
+"Do you want to make a back-up on USB?\n"
+"\n"
+"This only takes a few minutes depending on the used filesystem and is fully "
+"automatic.\n"
+"\n"
+"Make sure you first insert an USB flash drive before you select Yes."
+msgstr ""
+"Vill du göra en säkerhetskopia till USB?\n"
+"\n"
+"Detta tar endast några minuter beroende på vilket filsystem som används, och "
+"är helt automatiskt.\n"
+"\n"
+"Se till att du först sätter i ett USB-minne innan du väljer Ja."
+
+msgid "No supported receiver found!"
+msgstr "Hittade ingen mottagare om stöds!"
+
+msgid "BACK-UP TOOL, FOR MAKING A COMPLETE BACK-UP"
+msgstr ""
+"SÄKERHETSKOPIERINGSVERKTYG, FÖR ATT GÖRA EN FULLSTÄNDIG SÄKERHETSKOPIERING"
+
+msgid "Please be patient, a backup will now be made, this will take about: "
+msgstr "Ha tålamod, en säkerhetskopia görs nu. Detta tar ca: "
+
+msgid " size to be backed up: "
+msgstr " storlek som ska säkerhetskopieras: "
+
+msgid "not found, the backup process will be aborted!"
+msgstr "hittades inte, säkerhetskopieringsprocessen avbryts!"
+
+msgid "Some information about the task"
+msgstr "Lite information om uppgiften"
+
+msgid "Create: root.ubifs"
+msgstr "Skapa: root.ubifs"
+
+msgid "Create: kerneldump"
+msgstr "Skapa: kerneldump"
+
+msgid "Additional backup -> "
+msgstr "Detaljerad säkerhetskopia -> "
+
+msgid "USB Image created in: "
+msgstr "USB-image skapad i: "
+
+msgid "and there is made an extra copy in: "
+msgstr "och det har gjorts en extra kopia i: "
+
+msgid "Please check the manual of the receiver on how to restore the image."
+msgstr "Titta i bruksanvisningen för mottagaren hur du återställer en image."
+
+msgid "Image creation FAILED!"
+msgstr "Skapande av image misslyckades!"
+
+msgid "available "
+msgstr "tillgängligt "
+
+msgid ""
+"There is a valid USB-flashdrive detected in one of the USB-ports, therefore "
+"an extra copy of the back-up image will now be copied to that USB-flashdrive."
+msgstr ""
+"Det finns en giltig USB-enhet upptäckt i en av USB-portarna, därför kommer "
+"en extra kopia av din säkerhetskopierade image att kopieras till denna USB-"
+"enhet."
+
+msgid "This only takes about 20 seconds....."
+msgstr "Detta tar endast ca 20 sekunder..."
+
+msgid "Backup finished and copied to your USB-flashdrive."
+msgstr "Säkerhetskopiering klar och kopierad till din USB-enhet."
+
+msgid "Full back-up to the harddisk"
+msgstr "Fullständig säkerhetskopiering till hårddisken"
+
+msgid "There is NO valid USB-stick found, so I've got nothing to do."
+msgstr "En giltig USB-enhet hittades inte, så det finns inget att göra."
+
+msgid "PLEASE READ THIS:"
+msgstr "VÄNLIGEN LÄS DETTA:"
+
+msgid ""
+"To back-up directly to the USB-stick, the USB-stick MUST contain a file with "
+"the name:"
+msgstr ""
+"För att säkerhetskopiera direkt till USB-minnet, så MÅSTE USB-minnet "
+"innehålla en fil med namnet:"
+
+msgid "backupstick or"
+msgstr "backupstick eller"
+
+msgid "backupstick.txt"
+msgstr "backupstick.txt"
+
+msgid ""
+"If you place an USB-stick containing this file then the back-up will be "
+"automatically made onto the USB-stick and can be used to restore the current "
+"image if necessary."
+msgstr ""
+"Om du sätter i ett USB-minne som innehåller denna fil så kommer "
+"säkerhetskopieringen att göras automatiskt till USB-minnet, och kan sedan "
+"användas för att återställa din aktuella image om det behövs."
+
+msgid "The program will exit now."
+msgstr "Programmet kommer nu att avslutas."
+
+msgid "Full back-up direct to USB"
+msgstr "Fullständig säkerhetskopiering direkt till USB"
+
+msgid "The content of the folder is:"
+msgstr "Innehållet i mappen är:"
+
+msgid "Time required for this process: "
+msgstr "Tid som behövdes för denna process: "
+
+msgid "minutes"
+msgstr "minuter"
+
+msgid "Backup done with: "
+msgstr "Säkerhetskopiering utförd med: "
+
+msgid "KB per second"
+msgstr "KB per sekund"
+
+msgid ""
+"Most likely this back-up can't be restored because of it's size, it's simply "
+"too big to restore. This is a limitation of the bootloader not of the back-"
+"up or the BackupSuite."
+msgstr ""
+"Denna säkerhetskopia kan troligtvis inte återställas p.g.a. sin storlek. Den "
+"är helt enkelt för stor för att återställa. Detta är en begränsning i "
+"bootloader, inte i säkerhetskopior eller i BackupSuite."
+
+msgid ""
+"There COULD be a problem with restoring this back-up because the size of the "
+"back-up comes close to the maximum size. This is a limitation of the "
+"bootloader not of the back-up or the BackupSuite."
+msgstr ""
+"Det kan uppstå problem med återställning av denna säkerhetskopia, eftersom "
+"storleken på säkerhetskopian ligger nära den maximala storleken. Detta är en "
+"begränsning i bootloader, inte i säkerhetskopior eller i BackupSuite."
+
+msgid "* * * WARNING * * *"
+msgstr "* * * VARNING * * *"
+
+msgid "Not enough free space on "
+msgstr "Inte tillräckligt med ledigt utrymme på "
+
+msgid " to make a back-up!"
+msgstr " för att göra en säkerhetskopia!"
+
+msgid " MB available space"
+msgstr " MB tillgängligt utrymme"
+
+msgid " MB needed space"
+msgstr " MB utrymme krävs"
+
+msgid ""
+"The program will abort, please try another medium with more free space to "
+"create your back-up."
+msgstr ""
+"Programmet kommer att avbrytas. Försök med en annan lagringsenhet med mer "
+"ledigt utrymme för att skapa din säkerhetskopia."
+
+msgid "is not executable..."
+msgstr ""
+
+msgid "Using your own custom lookuptable.txt from the folder /etc"
+msgstr ""
+
+msgid "Version unknown, probably not installed the right way."
+msgstr ""
+
+msgid "not installed yet, now installing"
+msgstr ""
+
+msgid "Probably you are trying to make the back-up in flash memory"
+msgstr ""
+
+msgid "No additional USB-stick found to copy an extra backup"
+msgstr ""
+
+msgid "Installed packages contained in this backup:"
+msgstr ""
+
+msgid "NFI Image created in: "
+msgstr ""
+
+#: plugin.py 294
+msgid ""
+"\n"
+"The found files:"
+msgstr ""
+"\n"
+"Hittade filer:"
+
+#: plugin.py 300
+#, python-format
+msgid "  %s (maybe error)"
+msgstr "  %s (kanske fel)"
+
+#: plugin.py 297
+#, python-format
+msgid "  %s (maybe ok)"
+msgstr "  %s (kanske ok)"
+
+#: plugin.py 303
+msgid " nothing!"
+msgstr " ingenting!"
+
+#: plugin.py 327
+msgid ""
+"A recording is currently running. Please stop the recording before trying to "
+"start a flashing."
+msgstr ""
+"En inspelning körs för tillfället. Stoppa inspelningen innan du försöker att "
+"starta en formatering."
+
+#: plugin.py 91
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: plugin.py 383
+#, python-format
+msgid "Do you really want to unpack %s ?"
+msgstr "Vill du verkligen packa upp %s ?"
+
+#: plugin.py 317
+msgid "Exit"
+msgstr "Avsluta"
+
+#: plugin.py 331
+msgid "Flashing: "
+msgstr "Formaterar: "
+
+#: plugin.py 275
+msgid "For flashing your receiver files are needed:\n"
+msgstr "För att formatera din mottagare, följande filer krävs:\n"
+
+#: plugin.py 354
+msgid "NOT found files for flashing!\n"
+msgstr "Hittade INTE filer för formatering!\n"
+
+#: plugin.py 311 343
+msgid "Only kernel"
+msgstr "Endast kernel"
+
+#: plugin.py 310 340
+msgid "Only root"
+msgstr "Endast root"
+
+#: plugin.py 361
+msgid "Please: DO NOT reboot your STB and turn off the power.\n"
+msgstr "Observera: Starta INTE om din box eller stäng av strömmen.\n"
+
+#: plugin.py 94
+msgid "Restore backup"
+msgstr "Återställ backup"
+
+#: plugin.py 249 263 269
+msgid "Run flash"
+msgstr "Kör formatering"
+
+#: plugin.py 274
+msgid "Select parameter for start flash!\n"
+msgstr "Välj parameter för att starta formatering!\n"
+
+#: plugin.py 199
+msgid "Select the folder with backup"
+msgstr "Välj mappen med säkerhetskopian"
+
+#: plugin.py 367
+msgid "Show only found image and mtd partitions.\n"
+msgstr "Visa endast hittade image och MTD-partitioner.\n"
+
+#: plugin.py 308 334
+msgid "Simulate (no write)"
+msgstr "Simulera (skriv inte)"
+
+#: plugin.py 309 337
+msgid "Standard (root and kernel)"
+msgstr "Standard (root och kernel)"
+
+#: plugin.py 362
+msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
+msgstr ""
+"Denna image eller kernel kommer att installeras och auto-starta om några "
+"minuter.\n"
+
+#: plugin.py 247 380
+msgid "Unzip"
+msgstr "Unzip"
+
+#: plugin.py 266
+msgid ""
+"Warning!\n"
+"Use at your own risk! Make always a backup before use!\n"
+"Don't use it if you use multiple ubi volumes in ubi layer!"
+msgstr ""
+"Varning!\n"
+"Använd på egen risk! Gör alltid en säkerhetskopia innan användning!\n"
+"Använd den inte om du använder flera UBI-volumer i UBI-lager!"
+
+#: plugin.py 360
+msgid "Your STB will freeze during the flashing process.\n"
+msgstr "Din mottagare kommer att frysa under formateringsprocessen.\n"
+
+#: plugin.py 203 241
+#, python-format
+msgid "current:  %s"
+msgstr "nuvarande:  %s"
+
+#: plugin.py 359
+msgid "ofgwrite will stop enigma2 now to run the flash.\n"
+msgstr "ofgwrite kommer att stoppa enigma2 nu för att utföra installeringen.\n"
+
+#: plugin.py 312 346
+msgid "Only root with use mtdy device"
+msgstr "Endast root med MTDY-enhet"
+
+#: plugin.py 313 349
+msgid "Only kernel with use mtdx device"
+msgstr "Endast kernel med MTDX-enhet"
+
+#: plugin.py 405 412
+msgid "BackupSuite"
+msgstr "BackupSuite"
+
+#: plugin.py 406 413
+msgid "Enables back-up & restore without an USB-stick"
+msgstr "Aktiverar säkerhetskopiering & återställning utan ett USB-minne"
+
+#: plugin.py 92
+msgid "Backup > HDD"
+msgstr "Backup > HDD"
+
+#: plugin.py 93
+msgid "Backup > USB"
+msgstr "Backup > USB"
+
+#: plugin.py 173
+msgid "What is new since the last release?"
+msgstr "Vad är nytt sedan förra utgåvan?"

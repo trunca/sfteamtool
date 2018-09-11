@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pedro_Newbie <backupsuite@outlook.com>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: plugin.py 89
+msgid "Make a backup or restore a backup"
+msgstr "Wykonaj lub przywróc kopie image"
+
+msgid "Full back-up on HDD"
+msgstr "Backup image na HDD"
+
+msgid ""
+"Do you want to make an USB-back-up image on HDD? \n"
+"\n"
+"This only takes a few minutes and is fully automatic.\n"
+msgstr ""
+"Czy chcesz stworzyć backup image (w formacie usb) na HDD? \n"
+"\n"
+"To zajmie tylko kilka minut i jest w pełni automatyczne.\n"
+
+msgid "Full back-up to USB"
+msgstr "Backup image na USB"
+
+msgid ""
+"Do you want to make a back-up on USB?\n"
+"\n"
+"This only takes a few minutes depending on the used filesystem and is fully "
+"automatic.\n"
+"\n"
+"Make sure you first insert an USB flash drive before you select Yes."
+msgstr ""
+"Czy chcesz stworzyć backup na USB?\n"
+"\n"
+"To zajmie tylko kilka minut, w zależności od używanego filesystemu i jest w "
+"pełni automatyczne.\n"
+"\n"
+"Upewnij się, że podłączyłeś pendrive USB zanim wybierzesz TAK."
+
+msgid "No supported receiver found!"
+msgstr "Odbiornik nie wspierany przez plugin!"
+
+msgid "BACK-UP TOOL, FOR MAKING A COMPLETE BACK-UP"
+msgstr "NARZĘDZIE DO TWORZENIA KOMPLETNEGO BACKUPU"
+
+msgid "Please be patient, a backup will now be made, this will take about: "
+msgstr ""
+"Prosimy o cierpliwość, kopia zapasowa zostanie wykonana, to zajmie około: "
+
+msgid " size to be backed up: "
+msgstr " rozmiar do zarchiwizowania: "
+
+msgid "not found, the backup process will be aborted!"
+msgstr ""
+
+msgid "Some information about the task"
+msgstr "Niektóre informacje o zadaniu"
+
+msgid "Create: root.ubifs"
+msgstr "Tworzenie: root.ubifs"
+
+msgid "Create: kerneldump"
+msgstr "Tworzenie: kerneldump"
+
+msgid "Additional backup -> "
+msgstr "Dodatkowy backup -> "
+
+msgid "USB Image created in: "
+msgstr "Image USB utworzone na: "
+
+msgid "and there is made an extra copy in: "
+msgstr "i dodatkowa kopia utworzona na: "
+
+msgid "Please check the manual of the receiver on how to restore the image."
+msgstr ""
+
+msgid "Image creation FAILED!"
+msgstr "Tworzenie image NIE POWIODŁO SIĘ!"
+
+msgid "available "
+msgstr "dostępny "
+
+msgid ""
+"There is a valid USB-flashdrive detected in one of the USB-ports, therefore "
+"an extra copy of the back-up image will now be copied to that USB-flashdrive."
+msgstr ""
+"Wykryto prawidłowy pendrive USB w jednym z gniazd, w związku z tym, "
+"dodatkowa kopia backupu będzie zapisana na tym nośniku."
+
+msgid "This only takes about 20 seconds....."
+msgstr "To zajmie tylko 20 sekund..."
+
+msgid "Backup finished and copied to your USB-flashdrive."
+msgstr "Backup zakończony i skopiowany na pendrive USB."
+
+msgid "Full back-up to the harddisk"
+msgstr "Pełny backup image na dysku"
+
+msgid "There is NO valid USB-stick found, so I've got nothing to do."
+msgstr "NIE znaleziono prawidłowego pendrive USB, nie można wykonać backupu."
+
+msgid "PLEASE READ THIS:"
+msgstr "PRZECZYTAJ:"
+
+msgid ""
+"To back-up directly to the USB-stick, the USB-stick MUST contain a file with "
+"the name:"
+msgstr ""
+"Aby stworzyć backup bezpośrednio na USB, pendrive MUSI zawierać plik o "
+"nazwie:"
+
+msgid "backupstick or"
+msgstr "backupstick lub"
+
+msgid "backupstick.txt"
+msgstr "backupstick.txt"
+
+msgid ""
+"If you place an USB-stick containing this file then the back-up will be "
+"automatically made onto the USB-stick and can be used to restore the current "
+"image if necessary."
+msgstr ""
+"Jeśli umieścisz pendrive USB zawierający ten plik, backup zostanie "
+"automatycznie zapisany na pendrive i może być użyty w razie konieczności do "
+"przywrócenia aktualnego image."
+
+msgid "The program will exit now."
+msgstr "Program zostanie teraz zamknięty."
+
+msgid "Full back-up direct to USB"
+msgstr "Pełny backup image bezpośrednio na USB"
+
+msgid "The content of the folder is:"
+msgstr "Zawartość folderu jest:"
+
+msgid "Time required for this process: "
+msgstr "Czas potrzebny na ten proces: "
+
+msgid "minutes"
+msgstr "minuty"
+
+msgid "Backup done with: "
+msgstr "Archiwizacja odbywa się: "
+
+msgid "KB per second"
+msgstr "KB na sekundę"
+
+msgid ""
+"Most likely this back-up can't be restored because of it's size, it's simply "
+"too big to restore. This is a limitation of the bootloader not of the back-"
+"up or the BackupSuite."
+msgstr ""
+"Najprawdopodobniej ten backup nie będzie mógł zostać przywrócony ze względu "
+"na zbyt duży rozmiar. Jest to ograniczenie bootloadera, nie jest to wina "
+"backupu ani pluginu"
+
+msgid ""
+"There COULD be a problem with restoring this back-up because the size of the "
+"back-up comes close to the maximum size. This is a limitation of the "
+"bootloader not of the back-up or the BackupSuite."
+msgstr ""
+"MOŻE wystąpić problem z przywróceniem tego backupu ponieważ jego rozmiar "
+"zbliża się do maksymalnego dopuszczalnego. Jest to ograniczenie bootloadera, "
+"nie jest to wina backupu ani pluginu"
+
+msgid "* * * WARNING * * *"
+msgstr "* * *UWAGA * * *"
+
+msgid "Not enough free space on "
+msgstr "Za mało wolnego miejsca na"
+
+msgid " to make a back-up!"
+msgstr " aby utworzyć backup!"
+
+msgid " MB available space"
+msgstr " MB dostępnego miejsca"
+
+msgid " MB needed space"
+msgstr " MB potrzebne"
+
+msgid ""
+"The program will abort, please try another medium with more free space to "
+"create your back-up."
+msgstr ""
+"Wykonywanie zostanie przerwane, do utworzenia swojego backupu użyj innego "
+"nośnika, z więksżą ilością wolnego miejsca."
+
+msgid "is not executable..."
+msgstr ""
+
+msgid "Using your own custom lookuptable.txt from the folder /etc"
+msgstr ""
+
+msgid "Version unknown, probably not installed the right way."
+msgstr ""
+
+msgid "not installed yet, now installing"
+msgstr ""
+
+msgid "Probably you are trying to make the back-up in flash memory"
+msgstr ""
+
+msgid "No additional USB-stick found to copy an extra backup"
+msgstr ""
+
+msgid "Installed packages contained in this backup:"
+msgstr ""
+
+msgid "NFI Image created in: "
+msgstr ""
+
+#: plugin.py 294
+msgid ""
+"\n"
+"The found files:"
+msgstr ""
+"\n"
+"Znalezione pliki:"
+
+#: plugin.py 300
+#, python-format
+msgid "  %s (maybe error)"
+msgstr "  %s (być może błąd)"
+
+#: plugin.py 297
+#, python-format
+msgid "  %s (maybe ok)"
+msgstr "  %s (być może ok)"
+
+#: plugin.py 303
+msgid " nothing!"
+msgstr "brak!"
+
+#: plugin.py 327
+msgid ""
+"A recording is currently running. Please stop the recording before trying to "
+"start a flashing."
+msgstr ""
+"Aktualnie trwa nagrywanie! Zatrzymaj je zanim rozpoczniesz procedurę "
+"wgrywania image."
+
+#: plugin.py 91
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: plugin.py 383
+#, python-format
+msgid "Do you really want to unpack %s ?"
+msgstr "Napewno chcesz rozpakować %s ?"
+
+#: plugin.py 317
+msgid "Exit"
+msgstr "Wyjdź"
+
+#: plugin.py 331
+msgid "Flashing: "
+msgstr "Wgrywanie:"
+
+#: plugin.py 275
+msgid "For flashing your receiver files are needed:\n"
+msgstr "Pliki potrzebne do flashowania twojego odbiornika:\n"
+
+#: plugin.py 354
+msgid "NOT found files for flashing!\n"
+msgstr "NIE znaleziono plików do flashowania!\n"
+
+#: plugin.py 311 343
+msgid "Only kernel"
+msgstr "Tylko kernel"
+
+#: plugin.py 310 340
+msgid "Only root"
+msgstr "Tylko root"
+
+#: plugin.py 361
+msgid "Please: DO NOT reboot your STB and turn off the power.\n"
+msgstr "Uwaga: NIE restartuj odbiornika ani NIE wyłączaj zasilania.\n"
+
+#: plugin.py 94
+msgid "Restore backup"
+msgstr "Przywróć backup"
+
+#: plugin.py 249 263 269
+msgid "Run flash"
+msgstr "Uruchom wgrywanie"
+
+#: plugin.py 274
+msgid "Select parameter for start flash!\n"
+msgstr "Wybierz parametry aby rozpocząć wgrywanie!\n"
+
+#: plugin.py 199
+msgid "Select the folder with backup"
+msgstr "Wybierz katalog z backupem"
+
+#: plugin.py 367
+msgid "Show only found image and mtd partitions.\n"
+msgstr "Pokaż tylko znalezione image i partycje mtd.\n"
+
+#: plugin.py 308 334
+msgid "Simulate (no write)"
+msgstr "Symulacja (bez zapisu)"
+
+#: plugin.py 309 337
+msgid "Standard (root and kernel)"
+msgstr "Standard (root and kernel)"
+
+#: plugin.py 362
+msgid "The image or kernel will be flashing and auto booted in few minutes.\n"
+msgstr ""
+"Image lub kernel zostanie wgrany i uruchomi się automatycznie za kilka "
+"minut.\n"
+
+#: plugin.py 247 380
+msgid "Unzip"
+msgstr "Rozpakuj zip"
+
+#: plugin.py 266
+msgid ""
+"Warning!\n"
+"Use at your own risk! Make always a backup before use!\n"
+"Don't use it if you use multiple ubi volumes in ubi layer!"
+msgstr ""
+"Uwaga!\n"
+"Używasz na własne ryzyko! Zawsze najpierw utwórz backup!\n"
+"Nie używaj jeśli używasz kilku woluminów ubi w warstwie ubi!"
+
+#: plugin.py 360
+msgid "Your STB will freeze during the flashing process.\n"
+msgstr "Odbiornik będzie 'zamrożony' podczas procedury wgrywania.\n"
+
+#: plugin.py 203 241
+#, python-format
+msgid "current:  %s"
+msgstr "bieżacy:  %s"
+
+#: plugin.py 359
+msgid "ofgwrite will stop enigma2 now to run the flash.\n"
+msgstr "ofgwrite zastopuje teraz e2 aby uruchomić flashowanie.\n"
+
+#: plugin.py 312 346
+msgid "Only root with use mtdy device"
+msgstr "Tylko root z użyciem urządzenia mtdy"
+
+#: plugin.py 313 349
+msgid "Only kernel with use mtdx device"
+msgstr "Tylko kernel z użyciem urządzenie mtdx"
+
+#: plugin.py 405 412
+msgid "BackupSuite"
+msgstr "BackupSuite"
+
+#: plugin.py 406 413
+msgid "Enables back-up & restore without an USB-stick"
+msgstr "Pozwala wykonać kopię i przywrócić image bez pena USB"
+
+#: plugin.py 92
+msgid "Backup > HDD"
+msgstr ""
+
+#: plugin.py 93
+msgid "Backup > USB"
+msgstr ""
+
+#: plugin.py 173
+msgid "What is new since the last release?"
+msgstr "Co nowego od ostatniego wydania?"
+
+#~ msgid "not found, the backup process will be aborted"
+#~ msgstr "nie znaleziono, tworzenie backupu zostanie przerwane"
+
+#~ msgid "Please check te manual of the receiver on how to restore the image."
+#~ msgstr "Sprawdź jak przywrócić image w instrukcji odbiornika."
